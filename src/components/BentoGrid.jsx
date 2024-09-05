@@ -45,7 +45,7 @@ const BentoGrid = () => {
             ></FlipWords>
         </div>
         <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-4 row-span-2 rounded-3xl flex flex-col  justify-center items-center bg-gradient-to-r from-yellow-400 from-500% via-orange-400 via-30% to-red-500 to-90%'>
-            <img src="/src/assets/iphone_15.webp" className='w-full object-contain min-h-0 mt-auto mb-auto pt-3 drop-shadow-xl'/>
+            <img src="/src/assets/iphone_15.webp" className='w-full object-contain min-h-0 mt-auto pt-3 drop-shadow-xl'/>
 
         </div>
         <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-1 bg-zinc-800 rounded-3xl flex flex-col justify-center text-center bg-gradient-to-r from-lime-300 from-500% via-yellow-3 via-30% to-yellow-300 to-90%'>
