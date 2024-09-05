@@ -1,6 +1,6 @@
-# Portfolio for @ajaymajgaonkar
+# Portfolio for **@ajaymajgaonkar**
 
-<img alt='demo' src=''/src/assets/mac.png' />
+![title](/src/assets/mac.png)
 
 ## Description
 
