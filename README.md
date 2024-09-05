@@ -1,5 +1,7 @@
 # Portfolio for **@ajaymajgaonkar**
 
+A personal portfolio built with React and Tailwind.
+
 ![title](/src/assets/mac.png)
 
 ## Description
