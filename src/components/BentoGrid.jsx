@@ -5,6 +5,7 @@ import AmazonCard from './AmazonCard'
 import AutoPlay from './AutoCarousel'
 import Slider from 'react-slick/lib/slider'
 import { FlipWords } from './flip-words'
+import CustomizedTimeline from './WorkTimeline'
 
 
 const BentoGrid = () => {
@@ -27,30 +28,15 @@ const BentoGrid = () => {
     className='flex h-screen w-full items-center justify-center py-40 border-b border-neutral-900'>
       <motion.div className='grid h-full w-full grid-cols-10 grid-rows-4 gap-5' transition={{delay:1}}>
         <div className='col-span-3 row-span-4  rounded-3xl flex justify-center items-center bg-zinc-800'>
-            {/* <div className='px-5 py-5 grid h-full w-full grid-cols-10 grid-rows-16ß gap-5'>
-                <div className='col-span-5 row-span-3 bg-gradient-to-r bg-orange-600 rounded-3xl flex justify-center items-center'>
-                        <img src="/src/assets/amazon.png" className='px-10 -mt-20 pb-5 drop-shadow-xl'/>
-                        <div>
-                        </div>
-                </div>
-                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
-                </div>
-                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
-                </div>
-                <div className='col-span-5 row-span-3 bg-red-500 rounded-3xl flex justify-center items-center'>
-                    <img src="/src/assets/nordstrom-logo-1.png" className='px-10 -mt-20 pb-5 drop-shadow-xl'/>
-                </div>
-                <div className='col-span-5 row-span-3 bg-red-500 rounded-3xl flex justify-center items-center'>
-                </div>
-                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
-                </div>
+            <div className='justify-center'>
+            </div>
 
+            <div>
+                <CustomizedTimeline className='drop-shadow-2xl '/>
+            </div>
 
-            </div> */}
-
-            work experience
         </div>
-        <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-2 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-500 from-500% via-blue-500 via-30% to-indigo-700 to-90%'>
+        <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-2 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-500 from-500% via-blue-500 via-30% to-indigo-600 to-90%'>
             {/* flip-word component */}
             <FlipWords 
                 words={['Developer', 'Engineer', 'Innovator', 'Manager', 'Creator']}
@@ -91,5 +77,26 @@ const BentoGrid = () => {
     </motion.div>
   )
 }
+
+{/* <div className='px-5 py-5 grid h-full w-full grid-cols-10 grid-rows-16ß gap-5'>
+                <div className='col-span-5 row-span-3 bg-gradient-to-r bg-orange-600 rounded-3xl flex justify-center items-center'>
+                        <img src="/src/assets/amazon.png" className='px-10 -mt-20 pb-5 drop-shadow-xl'/>
+                        <div>
+                        </div>
+                </div>
+                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
+                </div>
+                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
+                </div>
+                <div className='col-span-5 row-span-3 bg-red-500 rounded-3xl flex justify-center items-center'>
+                    <img src="/src/assets/nordstrom-logo-1.png" className='px-10 -mt-20 pb-5 drop-shadow-xl'/>
+                </div>
+                <div className='col-span-5 row-span-3 bg-red-500 rounded-3xl flex justify-center items-center'>
+                </div>
+                <div className='col-span-5 row-span-3 bg-zinc-800 rounded-3xl flex justify-center items-center'>
+                </div>
+
+
+            </div> */}
 
 export default BentoGrid

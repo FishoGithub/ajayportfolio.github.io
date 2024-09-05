@@ -11,6 +11,9 @@ import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+
+
+
 // import Carousel from "./components/ui/apple-cards-carousel"
 
 // import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
@@ -31,6 +34,7 @@ const App = () => {
         {/* <Technologies /> */}
         
         <BentoGrid />
+
         <GetInTouch />
       </div>
 
