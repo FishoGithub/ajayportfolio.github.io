@@ -6,6 +6,8 @@ import AutoPlay from './AutoCarousel'
 import Slider from 'react-slick/lib/slider'
 import { FlipWords } from './flip-words'
 import CustomizedTimeline from './WorkTimeline'
+import Typewriter from './Typewriter'
+import TypeWriterEffect from 'react-typewriter-effect';
 
 
 const BentoGrid = () => {
@@ -17,7 +19,7 @@ const BentoGrid = () => {
         "/src/assets/carousel/JavaScript-logo.png",
         "/src/assets/carousel/python-5-logo-png-transparent.png",
         "/src/assets/carousel/scrumlogo.png",
-    ];
+    ]
 
   return (
 
@@ -50,7 +52,19 @@ const BentoGrid = () => {
         </div>
         <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-1 bg-zinc-800 rounded-3xl flex flex-col justify-center text-center bg-gradient-to-r from-lime-300 from-500% via-yellow-3 via-30% to-yellow-300 to-90%'>
             <h1 className='mt-auto mb-auto text-center w-full object-contain leading-snug tracking-tight font-extrabold lg:text-xl md:text-xl 2xl:text-3xl text-black py-10 px-5'>
-                20 years of development experience
+                <TypeWriterEffect
+                    startDelay={1000}
+                    cursorColor="black"
+                    typeSpeed={100}
+                    multiText = {[
+                        '20 years of development experience',
+                        '20 years of development experience'
+                    ]}
+                    multiTextDelay={1000}
+                    multiTextLoop = {true}
+                    className='text-center'
+                    
+                />
             </h1>
         </div>
         {/* <div className='drop-shadow-2xl col-span-2 row-span-2 bg-zinc-800 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-600 from-10% via-blue-600 via-30% to-blue-800 to-90%'>

@@ -10,7 +10,7 @@ const GetInTouch = () => {
         transition={{duration: 1, delay: 0.7, type: "spring"}}
         href="https://www.linkedin.com/in/ajaymajgaonkar/"
         target='_blank' 
-        className='leading-snug tracking-tight lg:mt-16 font-extrabold text-5xl'>get in touch ‎ ‎ ‎🤙
+        className='leading-snug tracking-tight lg:mt-16 font-extrabold text-5xl cursor-pointer hover:to-blue-400'>get in touch ‎ ‎ ‎🤙
       </motion.a>
     </div>
   )
