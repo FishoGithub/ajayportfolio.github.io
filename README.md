@@ -10,6 +10,8 @@ Personal portfolio for Ajay Majgaonkar. Displays fields such as work experience,
 
 ## Built Using
 
+I built this project using both React and Tailwind combined with many different libraries from react. Some components used were Flip Text from Aceternity, the dots background from bg.ibelick, and the timeline from Material UI.
+
 This project was built with: 
 
 - React.js
@@ -18,6 +20,7 @@ This project was built with:
 - Aceternity UI
 - Material UI
 - Framer Motion
+- BG.IBELICK
 
 ## Visit Now
 
