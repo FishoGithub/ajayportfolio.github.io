@@ -1,8 +1,27 @@
-# React + Vite
+# Portfolio for **@ajaymajgaonkar**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio built with React and Tailwind.
 
-Currently, two official plugins are available:
+![title](/src/assets/mac.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+Personal portfolio for Ajay Majgaonkar. Displays fields such as work experience, technologies, location, experience, and general traits and skills. Designed to create a visual display of Ajay's skills and background (a sort of digital resume). 
+
+## Built Using
+
+I built this project using both React and Tailwind combined with many different libraries from react. Some components used were Flip Text from Aceternity, the dots background from bg.ibelick, and the timeline from Material UI.
+
+This project was built with: 
+
+- React.js
+- Tailwind CSS
+- Vite
+- Aceternity UI
+- Material UI
+- Framer Motion
+- BG.IBELICK
+
+## Visit Now
+
+placeholder link for when site goes live
