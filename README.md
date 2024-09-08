@@ -24,4 +24,4 @@ This project was built with:
 
 ## Visit Now
 
-placeholder link for when site goes live
+[put website link here]
