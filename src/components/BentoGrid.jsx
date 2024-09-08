@@ -40,11 +40,15 @@ const BentoGrid = () => {
         </div>
         <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-2 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-500 from-500% via-blue-500 via-30% to-indigo-600 to-90%'>
             {/* flip-word component */}
-            <FlipWords 
-                words={['Developer', 'Engineer', 'Innovator', 'Manager', 'Creator']}
-                className="mt-auto mb-auto text-center w-full object-contain leading-snug tracking-tight font-extrabold lg:text-xl md:text-xl 2xl:text-4xl text-black py-10 px-5"
-        
-            ></FlipWords>
+            <div className='position: absolute mt-auto mb-auto object-contain px-10 lg:text-xl'>
+                <p className='text-gray-200'><a className='leading-snug tracking-tight font-extrabold'>I'm Ajay,</a> a<FlipWords 
+                    words={['Developer', 'Engineer', 'Innovator']}
+                    className='leading-snug tracking-tight font-extrabold'
+                ></FlipWords>who's passionate about software development and leading successful teams. </p>
+                <p>‎</p>
+                <p className='font-extrabold'>I consistently deliver high-quality results and successfully execute customer visions.</p>
+            </div>
+            
         </div>
         <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-4 row-span-2 rounded-3xl flex flex-col  justify-center items-center bg-gradient-to-r from-yellow-400 from-500% via-orange-400 via-30% to-red-500 to-90%'>
             <img src="/src/assets/iphone_15.webp" className='w-full object-contain min-h-0 mt-auto pt-3 drop-shadow-xl'/>

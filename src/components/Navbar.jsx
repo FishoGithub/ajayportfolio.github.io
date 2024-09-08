@@ -14,8 +14,8 @@ const Navbar = () => {
             <a href="."><img src={ajayLogo} alt="sahf temporary logo placeholder" className="ms-auto w-16"/></a>
             <div className="m-8 flex items-center justify-center text-2xl gap-5">
 
-                <a href='https://github.com/ajaymajgaonkar' target="_blank"><img src={githubLogo} className="flex mx-2 w-11 items-end"/></a>
-                <a href='https://www.linkedin.com/in/ajaymajgaonkar/' target="_blank"><img src={linkedinIcon} className="flex mx-2 w-10 items-end"/></a>
+                <a href='https://github.com/ajaymajgaonkar' target="_blank"><img src={githubLogo} className="flex mx-2 w-11 items-end hover:bg-zinc-800 rounded-3xl"/></a>
+                <a href='https://www.linkedin.com/in/ajaymajgaonkar/' target="_blank"><img src={linkedinIcon} className="flex mx-2 w-10 items-end hover:bg-zinc-800"/></a>
             </div>
 
         </div>
