@@ -17,6 +17,7 @@ import {
     CarouselNext,
     CarouselPrevious,
   } from "./ui/carousel"
+import { Button } from '@mui/material'
   
 
 
@@ -89,7 +90,16 @@ const BentoGrid = () => {
             {/* technologies section */}
             
             <div>
-                <Carousel>
+            {/* <h1 className='mt-auto mb-auto text-center object-contain leading-snug tracking-tight font-extrabold lg:text-xl md:text-xl 2xl:text-3xl text-black drop-shadow-2xl'>Technologies</h1> */}
+                <Carousel
+                    plugins={[
+                        Autoplay({
+                          delay: 2000,
+                        }),
+                      ]}
+
+                      className='py-16 bg-zinc-100 rounded-3xl mx-10 drop-shadow-2xl'
+                >
                     <CarouselContent>
                         <CarouselItem>
                             <img src='/src/assets/carousel/aws_logo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
