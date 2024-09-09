@@ -33,7 +33,7 @@ const App = () => {
         {/* add about section */}
         {/* <Technologies /> */}
         
-        <BentoGrid />
+        <BentoGrid className='drop-shadow-2xl'/>
 
         <GetInTouch />
       </div>
