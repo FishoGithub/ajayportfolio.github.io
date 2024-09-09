@@ -11,6 +11,7 @@ import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+import Footer from "./components/Footer";
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
         <BentoGrid className='drop-shadow-2xl'/>
 
         <GetInTouch />
+        {/* <Footer /> */}
       </div>
 
     </div>
