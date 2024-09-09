@@ -29,7 +29,7 @@ const App = () => {
   
       <div className="container mx-auto px-10">
         
-        <Navbar />
+        <Navbar className=''/>
         <Hero />
         {/* add about section */}
         {/* <Technologies /> */}

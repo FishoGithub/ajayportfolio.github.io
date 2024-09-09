@@ -49,7 +49,7 @@ const BentoGrid = () => {
             </div>
 
         </div>
-        <div className='transition-all duration-500 cursor-pointer filter  hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-2 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-500 from-500% via-blue-500 via-30% to-indigo-600 to-90%'>
+        <div className='transition-all duration-500 cursor-pointer filter grayscale hover:grayscale-0 drop-shadow-2xl col-span-3 row-span-2 rounded-3xl flex justify-center items-center bg-gradient-to-r from-blue-500 from-500% via-blue-500 via-30% to-indigo-600 to-90%'>
             {/* flip-word component */}
             <div className='position: absolute mt-auto mb-auto object-contain px-10 lg:text-xl'>
                 <p className='text-gray-200'><a className='leading-snug tracking-tight font-extrabold'>I'm Ajay,</a> a<FlipWords 
