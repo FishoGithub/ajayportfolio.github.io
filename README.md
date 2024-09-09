@@ -22,6 +22,12 @@ This project was built with:
 - Framer Motion
 - BG.IBELICK
 
+## Socials
+
+Instagram: @mihir.majgaonkar
+Email: mihir.majgaonkar@gmail.com
+Linkedin: www.linkedin.com/in/mihirmajgaonkar/
+
 ## Visit Now
 
 [put website link here]
