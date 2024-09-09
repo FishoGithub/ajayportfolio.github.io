@@ -8,6 +8,16 @@ import { FlipWords } from './flip-words'
 import CustomizedTimeline from './WorkTimeline'
 import Typewriter from './Typewriter'
 import TypeWriterEffect from 'react-typewriter-effect';
+import Autoplay from "embla-carousel-autoplay"
+
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "./ui/carousel"
+  
 
 
 const BentoGrid = () => {
@@ -79,7 +89,33 @@ const BentoGrid = () => {
             {/* technologies section */}
             
             <div>
-                technologies
+                <Carousel>
+                    <CarouselContent>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/aws_logo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/azure.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/C++_logo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/Firebase_Logo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/JavaScript-logo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/python-5-logo-png-transparent.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img src='/src/assets/carousel/scrumlogo.png' className='mt auto mb-auto size-20 items-center object-contain text-center w-full'></img>
+                        </CarouselItem>
+                    </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+                </Carousel>
             </div>
 
         </div>
